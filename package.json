@@ -28,8 +28,9 @@
   "private": true,
   "devDependencies": {
     "@abgov/core-css": "^0.7.56",
-    "@abgov/nx-adsp": "^1.2.4",
-    "@abgov/nx-oc": "^1.2.1",
+    "@abgov/nx-adsp": "^1.3.0",
+    "@abgov/nx-dotnet": "^1.0.0",
+    "@abgov/nx-oc": "^1.3.0",
     "@abgov/react-components": "^0.7.56",
     "@babel/core": "7.9.6",
     "@babel/preset-env": "7.9.6",

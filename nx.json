@@ -21,6 +21,12 @@
     "mern-example-app-e2e": {
       "tags": [],
       "implicitDependencies": ["mern-example-app"]
+    },
+    "react-dotnet-example-service": {},
+    "react-dotnet-example-app": { "tags": [] },
+    "react-dotnet-example-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["react-dotnet-example-app"]
     }
   }
 }
