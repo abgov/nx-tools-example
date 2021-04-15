@@ -79,7 +79,7 @@ items:
       runPolicy: Serial
       source:
         git:
-          uri: 'git@github.com:abgov/nx-tools-example.git'
+          uri: 'https://github.com/abgov/nx-tools-example.git'
         type: Git
       strategy:
         jenkinsPipelineStrategy:

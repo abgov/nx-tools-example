@@ -4,7 +4,7 @@ def affectedApps = []
 pipeline {
   agent {
     node {
-      label 'node12'
+      label 'node12-dotnet5'
     }
   }
   parameters {
