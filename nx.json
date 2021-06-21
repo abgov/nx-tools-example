@@ -5,7 +5,8 @@
     "tsconfig.base.json": "*",
     "tslint.json": "*",
     ".eslintrc.json": "*",
-    "nx.json": "*"
+    "nx.json": "*",
+    ".github/workflows/pipeline.yml": "*"
   },
   "affected": { "defaultBase": "main" },
   "npmScope": "nx-tools-example",
