@@ -1,7 +1,7 @@
 import { getGreeting } from '../support/app.po';
 
 describe('react-dotnet-example-app', () => {
-  beforeEach(() => cy.visit('/'));
+  beforeEach(() => cy.visit(Cypress.config().baseUrl));
 
   it('should display welcome message', () => {
     // Custom command example, see `../support/commands.ts` file
