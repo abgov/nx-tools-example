@@ -15,4 +15,4 @@ jobs:
       - uses: cypress-io/github-action@v2
         with:
           install-command: npm ci
-          command: npx nx react-dotnet-example-app-e2e:e2e --dev-server-target='' --baseUrl=${{ github.event.inputs.BASE_URL }}
+          command: npx nx run react-dotnet-example-app-e2e:e2e --dev-server-target='' --baseUrl=${{ github.event.inputs.BASE_URL }}
